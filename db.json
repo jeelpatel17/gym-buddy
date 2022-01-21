@@ -1,0 +1,307 @@
+{
+    "gymDays": [
+        {
+            "id": 1,
+            "day": "Chest",
+            "weekDay": "Monday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Barbell Bench Press/Flat Dumbbell Fly",
+                    "superSet": true,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "Incline Bench Press/Incline Dumbbell Fly",
+                    "superSet": true,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Peck Deck Fly",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 6
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Flat Dumbbell Press",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex5": {
+                    "id": 5,
+                    "exName": "Incline Dumbbell Press",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex6": {
+                    "id": 6,
+                    "exName": "Dumbbell Pull-Overs",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 3
+                }
+            }
+        },
+        {
+            "id": 2,
+            "day": "Back",
+            "weekDay": "Tueday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Lat Pull Down",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 3
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "One Arm Row",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 6
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Reverse Grip Pull Down",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 3
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Barbell Row",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 6
+                },
+                "ex5": {
+                    "id": 5,
+                    "exName": "Close Grip Pull Down",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 3
+                },
+                "ex6": {
+                    "id": 6,
+                    "exName": "Rack Pulls",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 6
+                }
+            }
+        },
+        {
+            "id": 3,
+            "day": "Bicep/Tricep",
+            "weekDay": "Wednesday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Alternate Bicep Curls",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 3
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "Barbell Curls",
+                    "superSet": false,
+                    "reps": 8,
+                    "sets": 6
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Preacher Curls(Close Grip)",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 3
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Plate Curls",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 3
+                },
+                "ex5": {
+                    "id": 5,
+                    "exName": "Tricep Push Down",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 4
+                },
+                "ex6": {
+                    "id": 6,
+                    "exName": "Overhead Extension",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex7": {
+                    "id": 7,
+                    "exName": "Skull Crushers/Tricep Press",
+                    "superSet": true,
+                    "reps": 15,
+                    "sets": 3
+                },
+                "ex8": {
+                    "id": 8,
+                    "exName": "Bench Dips",
+                    "superSet": false,
+                    "reps": 33,
+                    "sets": 2
+                }
+            }
+        },
+        {
+            "id": 4,
+            "day": "Shoulder",
+            "weekDay": "Thursday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Shoulder Press(Barbell)",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "Shoulder Press(Dumbbell)",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 4
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Alternate Front Raise",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 4
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Side Raises",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 4
+                },
+                "ex5": {
+                    "id": 5,
+                    "exName": "Bend Over Delt Fly",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 4
+                },
+                "ex6": {
+                    "id": 6,
+                    "exName": "Face Pulls",
+                    "superSet": false,
+                    "reps": 25,
+                    "sets": 3
+                },
+                "ex7": {
+                    "id": 7,
+                    "exName": "Barbell Shrugs",
+                    "superSet": false,
+                    "reps": 8,
+                    "sets": 8
+                }
+            }
+        },
+        {
+            "id": 5,
+            "day": "Leg",
+            "weekDay": "Friday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Barbell Squats",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 8
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "Leg Lunges",
+                    "superSet": false,
+                    "reps": 12,
+                    "sets": 6
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Leg Extensions",
+                    "superSet": false,
+                    "reps": 33,
+                    "sets": 3
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Leg Curls",
+                    "superSet": false,
+                    "reps": 33,
+                    "sets": 3
+                },
+                "ex5": {
+                    "id": 5,
+                    "exName": "Leg Press",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 6
+                },
+                "ex6": {
+                    "id": 6,
+                    "exName": "Calve Press",
+                    "superSet": false,
+                    "reps": 50,
+                    "sets": 4
+                }
+            }
+        },
+        {
+            "id": 6,
+            "day": "Abs/Forearms",
+            "weekDay": "Saturday",
+            "exercises": {
+                "ex1": {
+                    "id": 1,
+                    "exName": "Barbell Wrist Curls",
+                    "superSet": false,
+                    "reps": 33,
+                    "sets": 6
+                },
+                "ex2": {
+                    "id": 2,
+                    "exName": "Seated Calve Raises",
+                    "superSet": false,
+                    "reps": 25,
+                    "sets": 6,
+                    "note": "1 second pause at the top"
+                },
+                "ex3": {
+                    "id": 3,
+                    "exName": "Plank",
+                    "superSet": false,
+                    "reps": 1,
+                    "min": 1,
+                    "sets": 4
+                },
+                "ex4": {
+                    "id": 4,
+                    "exName": "Handling Leg Raises",
+                    "superSet": false,
+                    "reps": 15,
+                    "sets": 6
+                }
+            }
+        }
+    ]
+}
