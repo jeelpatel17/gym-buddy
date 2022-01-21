@@ -1,5 +1,41 @@
+:root {
+  --red: #ee3534;
+  --black: #222529;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins, "Gill Sans", Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--black);
+  font-size: 1em;
+}
+
+.card {
+  color: aliceblue;
+  background-color: var(--black);
+  border: 2px solid;
+}
+
+#doneBtn {
+  background-color: var(--red);
+  border-color: transparent;
+}
+
+#dialog {
+  position: absolute;
+  background-color: #000;
+  color: #00efc6;
+}
+
+#dialog > b {
+  font-size: 1.7rem;
+  color: var(--red);
 }

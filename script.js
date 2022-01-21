@@ -30,15 +30,29 @@ fetch("/db.json")
 
 let exerciseNo = 0;
 function startWorkout() {
+  doneBtn.textContent = "Done";
   for (day of gymDays) {
-    if (day.weekDay == dayName && exerciseNo < day.exercises.length) {
+    if (day.weekDay == dayName && exerciseNo < day.exercises.length + 1) {
+      if (exerciseNo + 1 == day.exercises.length + 1) {
+        success();
+      }
       let exercise = day.exercises[exerciseNo];
       mainTitle.innerText = `${exerciseNo + 1}. ${exercise.exName}`;
       secTitle1.innerText =
         exercise.superSet == true ? "Superset? : Yes" : "Superset? : No";
       secTitle2.innerText = `Sets: ${exercise.sets}, Reps: ${exercise.reps}`;
-
       exerciseNo++;
     }
+  }
+
+  function success() {
+    let successPage = `<div
+    class="h-100 w-100 d-flex justify-content-center align-items-center flex-column text-center"
+    id="dialog"
+  >
+    <img src="/successTick.gif" alt="" />
+    <b>There you go,Champion!</b><br />Your workout for today is completed!
+  </div>`;
+    document.getElementById("body").innerHTML += successPage;
   }
 }
