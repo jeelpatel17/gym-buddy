@@ -1,13 +1,13 @@
 :root {
   --red: #ee3534;
-  --black: #222529;
+  --black: #000;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins, "Gill Sans", Helvetica, sans-serif;
+  font-family: Outfit, "Gill Sans", Helvetica, sans-serif;
 }
 
 body {
@@ -21,17 +21,13 @@ body {
 .card {
   color: aliceblue;
   background-color: var(--black);
-  border: 2px solid;
-}
-
-#doneBtn {
-  background-color: var(--red);
-  border-color: transparent;
+  border: 2px solid gray;
+  border-radius: 15px;
 }
 
 #dialog {
   position: absolute;
-  background-color: #000;
+  background-color: var(--black);
   color: #00efc6;
 }
 

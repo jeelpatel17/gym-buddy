@@ -38,10 +38,11 @@ function startWorkout() {
         success();
       }
       let exercise = day.exercises[exerciseNo];
-      mainTitle.innerText = `${exerciseNo + 1}. ${exercise.exName}`;
-      secTitle1.innerText =
-        exercise.superSet == true ? "Superset? : Yes" : "Superset? : No";
-      secTitle2.innerText = `Sets: ${exercise.sets}, Reps: ${exercise.reps}`;
+      mainTitle.innerHTML = `${exerciseNo + 1}. <b>${exercise.exName}</b>`;
+      secTitle1.innerHTML = `<b>Superset?</b> : ${
+        exercise.superSet == true ? "Yes" : "No"
+      }`;
+      secTitle2.innerHTML = `<b>Sets</b> : ${exercise.sets}, <b>Reps </b>: ${exercise.reps}`;
       exerciseNo++;
     }
   }
@@ -52,7 +53,7 @@ function startWorkout() {
     id="dialog"
   >
     <img src="/successTick.gif" alt="" />
-    <b>There you go,Champion!</b><br />Your workout for today is completed!
+    <b>Workout Completed, Champion!</b><br />Your workout for today is completed!
   </div>`;
     document.getElementById("body").innerHTML += successPage;
   }
