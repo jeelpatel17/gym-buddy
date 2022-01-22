@@ -15,7 +15,7 @@ body {
   display: flex;
   align-items: center;
   background-color: var(--black);
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .card {
