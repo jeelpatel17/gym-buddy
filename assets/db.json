@@ -290,8 +290,7 @@
                     "id": 3,
                     "exName": "Plank",
                     "superSet": false,
-                    "reps": 1,
-                    "min": 1,
+                    "reps": "1 min",
                     "sets": 4
                 },
                 {

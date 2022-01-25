@@ -18,6 +18,7 @@ body {
   font-size: 1.3em;
 }
 
+/* CARD STYLING */
 .card {
   color: aliceblue;
   background-color: var(--black);
@@ -28,10 +29,27 @@ body {
 #dialog {
   position: absolute;
   background-color: var(--black);
-  color: #00efc6;
+  color: aliceblue;
 }
 
 #dialog > b {
   font-size: 1.7rem;
-  color: var(--red);
+}
+
+#dialog > img {
+  margin-bottom: -70px;
+}
+
+#doneBtn {
+  display: none;
+}
+.btn {
+  background-color: #90ee90;
+}
+
+.card-title > b,
+.card-text > b,
+#champTxt,
+#p1 > b {
+  color: lightgreen;
 }

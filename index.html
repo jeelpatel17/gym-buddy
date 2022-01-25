@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#90ee90" />
+    <link rel="manifest" href="./manifest.json" />
+    <link
+      rel="icon"
+      href="assets/dumbbell.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
     <title>Gym Buddy - Your True GYM Partner!</title>
     <!-- LINKING GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,16 +32,16 @@
   <body id="body">
     <main class="container-fluid d-flex justify-content-center">
       <div class="card" style="width: 18rem">
-        <div class="card-body">
-          <h5 id="mainTitle" class="card-title">Welcome to Gym-Buddy!</h5>
+        <div id="card-body" class="card-body">
+          <h5 id="mainTitle" class="card-title">
+            Welcome to <b>Gym-Buddy</b>! &#127947;
+          </h5>
           <p id="p1" class="card-text"></p>
           <p id="p2" class="card-text"></p>
-          <button id="doneBtn" class="btn btn-success">
-            Let's start working out!
-          </button>
+          <button id="doneBtn" class="btn">Let's start working out!</button>
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
