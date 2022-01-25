@@ -7,7 +7,6 @@ let gymDays = [];
 // CALCULATING TODAY'S WEEKDAY
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let dayName = days[new Date().getDay() - 1];
-console.log(dayName);
 let today;
 
 doneBtn.addEventListener("click", startWorkout);
