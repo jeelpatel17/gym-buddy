@@ -7,12 +7,12 @@ let gymDays = [];
 // CALCULATING TODAY'S WEEKDAY
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let dayName = days[new Date().getDay() - 1];
-// console.log(new Date().getDay() - 1);
+console.log(dayName);
 let today;
 
 doneBtn.addEventListener("click", startWorkout);
 
-// DISPLAYING TODAY'S DATA
+// FETCHING THE DATA AND STORING IT FOR LATER USE
 fetch("/db.json")
   .then((response) => response.json())
   .then((res) => {
@@ -29,6 +29,7 @@ fetch("/db.json")
     }
   });
 
+// ITERATING THORUGH ALL THE EXERCISES FOR THE DAY WHEN THE BUTTON IS CLICKED
 let exerciseNo = 0;
 function startWorkout() {
   doneBtn.textContent = "Done";
@@ -47,6 +48,7 @@ function startWorkout() {
     }
   }
 
+  // TRIGGERING THE 'WORKOUT-COMPLETE' PAGE WHEN THE WORKOUT IS COMPLETED!
   function success() {
     let successPage = `<div
     class="h-100 w-100 d-flex justify-content-center align-items-center flex-column text-center"
