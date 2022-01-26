@@ -1,8 +1,3 @@
-:root {
-  --red: #ee3534;
-  --black: #000;
-}
-
 @font-face {
   font-family: Outfit;
   src: url(../assets/fonts/Outfit-Regular.ttf);
@@ -20,14 +15,14 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  background-color: var(--black);
+  background-color: #000;
   font-size: 1.3em;
 }
 
 /* CARD STYLING */
 .card {
   color: aliceblue;
-  background-color: var(--black);
+  background-color: #000;
   border: 2px solid gray;
   border-radius: 15px;
   width: 18rem;
@@ -35,7 +30,7 @@ body {
 
 #dialog {
   position: absolute;
-  background-color: var(--black);
+  background-color: #000;
   color: aliceblue;
 }
 
