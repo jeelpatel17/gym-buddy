@@ -3,6 +3,12 @@
   --black: #000;
 }
 
+@font-face {
+  font-family: Outfit;
+  src: url(./assets/fonts/Outfit-Regular.ttf);
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
