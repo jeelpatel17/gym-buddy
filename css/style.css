@@ -1,11 +1,3 @@
-@font-face {
-  font-family: Outfit;
-  src: url(../assets/fonts/Outfit-Regular.ttf);
-  weight: normal;
-  /* This ensures that if the custom font isn't loaded yet, swap/replace with the system font */
-  font-display: swap;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -23,11 +15,11 @@ body {
 }
 
 #greet {
-  font-size: 5rem;
+  font-size: 4.5rem;
   opacity: 0.3;
   z-index: -1;
   position: absolute;
-  top: 30vh;
+  top: 10vh;
   text-align: center;
 }
 
@@ -37,6 +29,7 @@ body {
 
 .exInfo > b {
   color: #90ee90;
+  font-size: 1.1rem;
 }
 
 /* CARD STYLING */
@@ -87,7 +80,6 @@ body {
 #champTxt,
 #p1 > b {
   color: lightgreen;
-  font-size: 1.9rem;
 }
 
 @media only screen and (min-width: 800px) {
@@ -97,8 +89,8 @@ body {
   .btn {
     font-size: 1.3rem;
   }
-  #exInfo {
-    margin-bottom: 0.7rem;
+  .exInfo > b {
+    font-size: 2.2rem;
   }
   #greet {
     font-size: 8rem;
