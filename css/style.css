@@ -1,6 +1,7 @@
 @font-face {
   font-family: Outfit;
   src: url(../assets/fonts/Outfit-Regular.ttf);
+  /* This ensures that if the custom font isn't loaded yet, swap/replace with the system font */
   font-display: swap;
 }
 
@@ -16,12 +17,12 @@ body {
   display: flex;
   align-items: center;
   background-color: #000;
+  color: aliceblue;
   font-size: 1.3em;
 }
 
 /* CARD STYLING */
 .card {
-  color: aliceblue;
   background-color: #000;
   border: 2px solid gray;
   border-radius: 15px;
