@@ -23,14 +23,22 @@
   </head>
   <body id="body">
     <main class="container-fluid d-flex justify-content-center">
-      <div class="card">
+      <div id="welcome">
+        <p id="greet"></p>
+        <h1>Welcome to <b>Gym Buddy</b>!&#127947;</h1>
+        <p class="exInfo" id="today"></p>
+        <p class="exInfo" id="muscleToday"></p>
+        <p class="exInfo" id="totalExercises"></p>
+        <br />
+        <button id="startWorkoutBtn" class="btn">Start Workout</button>
+        <button id="myStats" class="btn">My Stats</button>
+      </div>
+      <div class="card" id="card">
         <div id="card-body" class="card-body">
-          <h5 id="mainTitle" class="card-title">
-            Welcome to <b>Gym-Buddy</b>! &#127947;
-          </h5>
+          <h5 id="mainTitle" class="card-title"></h5>
           <p id="p1" class="card-text"></p>
           <p id="p2" class="card-text"></p>
-          <button id="doneBtn" class="btn">Let's start working out!</button>
+          <button id="doneBtn" class="btn"></button>
         </div>
       </div>
     </main>

@@ -7,6 +7,8 @@ const secTitle2 = document.getElementById("p2");
 
 let exerciseNo = 0;
 function startWorkout() {
+  document.getElementById("card").style.display = "block";
+  document.getElementById("welcome").style.display = "none";
   for (let day of gymDays) {
     if (day.weekDay == dayName && exerciseNo < day.exercises.length + 1) {
       if (exerciseNo == day.exercises.length) {

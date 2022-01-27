@@ -1,6 +1,7 @@
 @font-face {
   font-family: Outfit;
   src: url(../assets/fonts/Outfit-Regular.ttf);
+  weight: normal;
   /* This ensures that if the custom font isn't loaded yet, swap/replace with the system font */
   font-display: swap;
 }
@@ -13,12 +14,29 @@
 }
 
 body {
+  font-size: 1.3em;
   height: 100vh;
   display: flex;
   align-items: center;
   background-color: #000;
   color: aliceblue;
-  font-size: 1.3em;
+}
+
+#greet {
+  font-size: 5rem;
+  opacity: 0.3;
+  z-index: -1;
+  position: absolute;
+  top: 30vh;
+  text-align: center;
+}
+
+.exInfo {
+  display: inline-block;
+}
+
+.exInfo > b {
+  color: #90ee90;
 }
 
 /* CARD STYLING */
@@ -27,6 +45,10 @@ body {
   border: 2px solid gray;
   border-radius: 15px;
   width: 18rem;
+  display: none;
+}
+.card-body {
+  font-size: 1.7rem;
 }
 
 #dialog {
@@ -46,8 +68,18 @@ body {
 #doneBtn {
   display: none;
 }
+
+#startWorkoutBtn {
+  margin-right: 5px;
+}
+
 .btn {
   background-color: #90ee90;
+  border-radius: 7px;
+  font-size: 1.3rem;
+}
+.card-title {
+  font-size: 1.9rem;
 }
 
 .card-title > b,
@@ -55,4 +87,41 @@ body {
 #champTxt,
 #p1 > b {
   color: lightgreen;
+  font-size: 1.9rem;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 2.5em;
+  }
+  .btn {
+    font-size: 1.3rem;
+  }
+  #exInfo {
+    margin-bottom: 0.7rem;
+  }
+  #greet {
+    font-size: 8rem;
+    top: 10vh;
+  }
+  .card {
+    width: fit-content;
+    min-width: 25rem;
+  }
+  .card-title {
+    font-size: 2.3rem;
+  }
+  .card-text {
+    font-size: 1.7rem;
+  }
+  .card-title > b,
+  .card-text > b,
+  #champTxt,
+  #p1 > b,
+  #dialog > b {
+    font-size: 2.7rem;
+  }
+  #dialog > .btn {
+    font-size: 1.6rem;
+  }
 }

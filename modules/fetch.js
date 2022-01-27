@@ -1,7 +1,7 @@
 const doneBtn = document.getElementById("doneBtn");
-const mainTitle = document.getElementById("mainTitle");
-const secTitle1 = document.getElementById("p1");
-const secTitle2 = document.getElementById("p2");
+const mainTitle = document.getElementById("today");
+const secTitle1 = document.getElementById("muscleToday");
+const secTitle2 = document.getElementById("totalExercises");
 let gymDays = [];
 // CALCULATING TODAY'S WEEKDAY
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -21,10 +21,10 @@ function fetchData() {
     gymDays = res.gymDays;
     for (let day of gymDays) {
       if (day.weekDay == dayName) {
-        mainTitle.innerHTML = `It's <b>${day.day} Day</b> today!`;
-        secTitle1.innerHTML = `Week Day: <b>${day.weekDay}</b>`;
+        mainTitle.innerHTML = `<b>${day.weekDay}</b> • `;
+        secTitle1.innerHTML = `<b>${day.day} Day</b> • `;
         let totalExercises = Object.keys(day.exercises).length;
-        secTitle2.innerHTML = `Total Exercises for today: <b>${totalExercises}</b>`;
+        secTitle2.innerHTML = `<b>${totalExercises} Exercises</b>`;
         doneBtn.innerText = "Let's workout!";
         doneBtn.style.display = "block";
       }

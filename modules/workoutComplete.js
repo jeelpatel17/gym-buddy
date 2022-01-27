@@ -1,6 +1,6 @@
 function success() {
   let successPage = `<div
-    class="h-100 w-100 d-flex justify-content-center align-items-center flex-column text-center"
+    class="h-100 w-100 d-flex justify-content-center align-items-center flex-column text-center overflow-hidden"
     id="dialog"
   >
     <img src="../assets/successTick2.gif" alt="workout-completed" />
