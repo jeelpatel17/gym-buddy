@@ -280,22 +280,28 @@
                 },
                 {
                     "id": 2,
-                    "exName": "Seated Calve Raises",
+                    "exName": "Reverse Wrist Curls",
                     "superSet": false,
-                    "reps": 25,
-                    "sets": 6,
-                    "note": "1 second pause at the top"
+                    "reps": 33,
+                    "sets": 6
                 },
                 {
                     "id": 3,
+                    "exName": "Seated Calve Raises",
+                    "superSet": false,
+                    "reps": "25(1 second pause at the top)",
+                    "sets": 6
+                },
+                {
+                    "id": 4,
                     "exName": "Plank",
                     "superSet": false,
                     "reps": "1 min",
                     "sets": 4
                 },
                 {
-                    "id": 4,
-                    "exName": "Handling Leg Raises",
+                    "id": 5,
+                    "exName": "Handing Leg Raises",
                     "superSet": false,
                     "reps": 15,
                     "sets": 6
