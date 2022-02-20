@@ -4,8 +4,21 @@ const secTitle1 = document.getElementById("muscleToday");
 const secTitle2 = document.getElementById("totalExercises");
 let gymDays = [];
 // CALCULATING TODAY'S WEEKDAY
-let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let dayName = days[new Date().getDay() - 1];
+let days = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+
+// If the dayName is undefined(as the array won't have anything on the -1 position), it'll return 'Sunday'
+let dayName =
+  days[new Date().getDay() - 1] == undefined
+    ? "Sunday"
+    : days[new Date().getDay() - 1];
 
 function fetchData() {
   // FETCHES THE DATA

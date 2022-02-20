@@ -301,6 +301,41 @@
                     "sets": 6
                 }
             ]
+        },
+        {
+            "id": 7,
+            "day": "Chill",
+            "weekDay": "Sunday",
+            "exercises": [
+                {
+                    "id": 1,
+                    "exName": "Eat",
+                    "superSet": false,
+                    "reps": "XX",
+                    "sets": "X"
+                },
+                {
+                    "id": 2,
+                    "exName": "Sleep",
+                    "superSet": false,
+                    "reps": "XX",
+                    "sets": "X"
+                },
+                {
+                    "id": 3,
+                    "exName": "Chill",
+                    "superSet": false,
+                    "reps": "XX",
+                    "sets": "X"
+                },
+                {
+                    "id": 4,
+                    "exName": "Repeat!",
+                    "superSet": false,
+                    "reps": "XX",
+                    "sets": "X"
+                }
+            ]
         }
     ]
 }
