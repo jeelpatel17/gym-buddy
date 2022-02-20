@@ -60,6 +60,7 @@ body {
 
 #doneBtn {
   display: none;
+  touch-action: manipulation;
 }
 
 #startWorkoutBtn {
