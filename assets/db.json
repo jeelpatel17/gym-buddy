@@ -219,6 +219,62 @@
         },
         {
             "id": 5,
+            "day": "Cardio",
+            "weekDay": "Friday",
+            "exercises": [
+                {
+                    "id": 1,
+                    "exName": "Jumping Jacks",
+                    "superSet": false,
+                    "reps": 25,
+                    "sets": 3
+                },
+                {
+                    "id": 2,
+                    "exName": "High Knees",
+                    "superSet": false,
+                    "reps": 40,
+                    "sets": 3
+                },
+                {
+                    "id": 3,
+                    "exName": "Burpees",
+                    "superSet": false,
+                    "reps": 10,
+                    "sets": 3
+                },
+                {
+                    "id": 4,
+                    "exName": "Cycle Crunches",
+                    "superSet": false,
+                    "reps": 100,
+                    "sets": 3
+                },
+                {
+                    "id": 5,
+                    "exName": "Crunches",
+                    "superSet": false,
+                    "reps": 25,
+                    "sets": 3
+                },
+                {
+                    "id": 6,
+                    "exName": "V Crunches",
+                    "superSet": false,
+                    "reps": 20,
+                    "sets": 3
+                },
+                {
+                    "id": 7,
+                    "exName": "V Seat",
+                    "superSet": false,
+                    "reps": "1 min",
+                    "sets": 1
+                }
+            ]
+        },
+        {
+            "id": 6,
             "day": "Leg",
             "weekDay": "Friday",
             "exercises": [
@@ -263,48 +319,6 @@
                     "superSet": false,
                     "reps": 50,
                     "sets": 4
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "day": "Abs/Forearms",
-            "weekDay": "Saturday",
-            "exercises": [
-                {
-                    "id": 1,
-                    "exName": "Barbell Wrist Curls",
-                    "superSet": false,
-                    "reps": 33,
-                    "sets": 6
-                },
-                {
-                    "id": 2,
-                    "exName": "Reverse Wrist Curls",
-                    "superSet": false,
-                    "reps": 33,
-                    "sets": 6
-                },
-                {
-                    "id": 3,
-                    "exName": "Seated Calve Raises",
-                    "superSet": false,
-                    "reps": "25(1 second pause at the top)",
-                    "sets": 6
-                },
-                {
-                    "id": 4,
-                    "exName": "Plank",
-                    "superSet": false,
-                    "reps": "1 min",
-                    "sets": 4
-                },
-                {
-                    "id": 5,
-                    "exName": "Handing Leg Raises",
-                    "superSet": false,
-                    "reps": 15,
-                    "sets": 6
                 }
             ]
         },
