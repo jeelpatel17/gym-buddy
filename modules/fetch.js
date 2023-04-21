@@ -24,8 +24,9 @@ function fetchData() {
   // FETCHES THE DATA
   async function fetchHandler() {
     loading();
-    let content = await fetch("../assets/db.json");
+    let content = await fetch("../db.json");
     let contentRes = await content.json();
+    console.log(contentRes);
     return contentRes;
   }
 
